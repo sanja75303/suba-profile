@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap');
+
+:root {
+  font-family: 'DM Sans', 'Avenir Next', sans-serif;
+  color: #4c1d3d;
+  background: #fff7f2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  --ink: #4c1d3d;
+  --muted: #674858;
+  --navy: #4c1d3d;
+  --navy-deep: #4c1d3d;
+  --royal: #852e4e;
+  --purple: #852e4e;
+  --teal: #a33757;
+  --coral: #dc586d;
+  --paper: #fff7f2;
+  --white: #fff;
+  --line: #efd4d5;
+  --sage: #ffede5;
+  --lavender: #fae4e8;
+  --light-blue: #fff1e8;
+  --ochre: #ffbb94;
+  --serif: 'Playfair Display', Georgia, serif;
+  --sans: 'DM Sans', 'Avenir Next', sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-padding-top: 82px; }
+body { min-width: 320px; margin: 0; }
+body, button, a { font-family: var(--sans); }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; }
+button:focus-visible, a:focus-visible { outline: 3px solid #ffbb94; outline-offset: 4px; }
+::selection { color: #fff7f2; background: #4c1d3d; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
